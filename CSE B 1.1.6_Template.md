@@ -1,4 +1,4 @@
-# **Cover Page: Replace with your Team Name**
+# JK Developers
 
 GIF of your App in Action
 
