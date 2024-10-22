@@ -2,7 +2,7 @@
 
 GIF of your App in Action
 
-| Designers: | Names |
+| Designers: |Krishna and Jugaad|
 | :---: | :---: |
 
 ![C:\\Users\\lsmith\\Dropbox\\2014-15 Curriculum Release\\Templates\\Logos\\PLTW\_Com\_sci5.jpg][image1]
