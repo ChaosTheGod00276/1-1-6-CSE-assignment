@@ -249,13 +249,14 @@ This table MUST be detailed\! It will be how I grade a minimum of 10% of your sc
 
 | Brainstorming: Steps 1 through 7: Type Here...*Organize and Format Nicely\!\!\!* You should also include brainstorming & developmental sketches here. They can be google drawings, photos of your hand sketches, etc. *No matter what though, Organize and Format Nicely\!\!\!*   Reminder, your App must meet ALL requirements given in 1.1.6 PLTW instructions   |  |
 | ----- | :---- |
-| Partner 1 Name | Partner 2 Name |
-| *Delete this text and put a daily reflection here. What did you do in class? What did you do at home? How well did you work with your partner today? Etc.* | *Delete this text and put a daily reflection here. What did you do in class? What did you do at home? How well did you work with your partner today? Etc.* |
-| *Insert images here on a DAILY basis of your code and App output (aka Emulator)...I need to see how it changes and evolves over time...again delete this text before submitting your work\!* |  |
+| Krishna | Jugaad |
+| We worked together to learn the boundaries of this project. At home, we called and I workeed on basic HTML code while Jugaad worked on basic CSS code, and we coordinated the HTML and CSS really well. | At school I read the requirements and helped Krishna understand them. Once I was home, Krishna and I called and we worked together to set up basic looks for the app. We did not do any JavaScript interactable code yet. |
+| ![image](https://github.com/user-attachments/assets/4e1b9cde-ff91-48a6-bef6-8ab72fa7727d)
+ |  |
 |  |  |
 |  |  |
 |  |  |
-| ATHis day went great. |  |
+|  |  |
 |  |  |
 |  |  |
 |  |  |
