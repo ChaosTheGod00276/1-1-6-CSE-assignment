@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#dummy {
+    width: 100px;
+    height: 200px;
+    background-color: #ccc;
+    border: 2px solid #000;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+#points {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #888;
+    cursor: not-allowed;
+}
+
+button:not(:disabled) {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
