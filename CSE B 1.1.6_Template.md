@@ -250,7 +250,7 @@ This table MUST be detailed\! It will be how I grade a minimum of 10% of your sc
 | Brainstorming: Steps 1 through 7: Type Here...*Organize and Format Nicely\!\!\!* You should also include brainstorming & developmental sketches here. They can be google drawings, photos of your hand sketches, etc. *No matter what though, Organize and Format Nicely\!\!\!*   Reminder, your App must meet ALL requirements given in 1.1.6 PLTW instructions   |  |
 | ----- | :---- |
 | Krishna | Jugaad |
-| We worked together to learn the boundaries of this project. At home, we called and I workeed on basic HTML code while Jugaad worked on basic CSS code, and we coordinated the HTML and CSS really well. | At school I read the requirements and helped Krishna understand them. Once I was home, Krishna and I called and we worked together to set up basic looks for the app. We did not do any JavaScript interactable code yet. |
+| We worked together to learn the boundaries of this project. At home, we called and I workeed on basic HTML code while Jugaad worked on basic CSS code, and we coordinated the HTML and CSS really well. Day:2 I worked updating the points and damage as well as updating the weapons based on how many points you have. I also worked on what color it shows based off of what weapon you are using. | At school I read the requirements and helped Krishna understand them. Once I was home, Krishna and I called and we worked together to set up basic looks for the app. We did not do any JavaScript interactable code yet. Day 2: We both worked on the Java Script together. I worked on enabling the button and making them clickable.   |
 | ![image](https://github.com/user-attachments/assets/4e1b9cde-ff91-48a6-bef6-8ab72fa7727d)
  |  |
 |  |  |
