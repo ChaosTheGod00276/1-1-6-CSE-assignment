@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummy FIGHT!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        #dummy {
+            width: 100px;
+            height: 200px;
+            background-color: #ccc;
+            border: 2px solid #000;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        #points {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:disabled {
+            background-color: #888;
+            cursor: not-allowed;
+        }
+
+        button:not(:disabled) {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dummy Fight</h1>
+        <div id="dummy"></div>
+        <div id="points">Points: 0</div>
+        <div id="weapons">
+            <button id="weapon1" disabled>Bat</button>
+            <button id="weapon2" disabled>Knife</button>
+            <button id="weapon3" disabled>Sword</button>
+        </div>
+    </div>
+
+    <script>
+        let points = 0;
+        const pointsDisplay = document.getElementById('points');
+        const weapon1Btn = document.getElementById('weapon1');
+        const weapon2Btn = document.getElementById('weapon2');
+        const weapon3Btn = document.getElementById('weapon3');
+        const dummy = document.getElementById('dummy');
+
+        weapon1Btn.disabled = false;  // Unlock first weapon at the start
+
+        // Update points display
+        function updatePoints() {
+            pointsDisplay.textContent = `Points: ${points}`;
+            if (points >= 50) {
+                weapon2Btn.disabled = false;
+            }
+            if (points >= 150) {
+                weapon3Btn.disabled = false;
+            }
+        }
+
+        // Weapon 1 (Stick)
+        weapon1Btn.addEventListener('click', function() {
+            points += 1;
+            dummy.style.backgroundColor = '#ff9999';  // Change dummy color
+            setTimeout(() => {
+                dummy.style.backgroundColor = '#ccc';  // Reset dummy color
+            }, 200);
+            updatePoints();
+        });
+
+        // Weapon 2 (Knife)
+        weapon2Btn.addEventListener('click', function() {
+            if (points >= 50) {
+                points += 5;
+                dummy.style.backgroundColor = '#ff6666';
+                setTimeout(() => {
+                    dummy.style.backgroundColor = '#ccc';
+                }, 200);
+                updatePoints();
+            }
+        });
+
+        // Weapon 3 (Gun)
+        weapon3Btn.addEventListener('click', function() {
+            if (points >= 150) {
+                points += 10;
+                dummy.style.backgroundColor = '#ff3333';
+                setTimeout(() => {
+                    dummy.style.backgroundColor = '#ccc';
+                }, 200);
+                updatePoints();
+            }
+        });
+    </script>
+</body>
+</html>
