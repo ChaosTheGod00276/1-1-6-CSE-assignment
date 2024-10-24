@@ -54,9 +54,10 @@
         <div id="dummy"></div>
         <div id="points">Points: 0</div>
         <div id="weapons">
-            <button id="weapon1" disabled>Bat</button>
+            <button id="weapon1">Bat</button>
             <button id="weapon2" disabled>Knife</button>
             <button id="weapon3" disabled>Sword</button>
+            <button id="weapon4" disabled>Axe</button>
         </div>
     </div>
 
@@ -66,9 +67,8 @@
         const weapon1Btn = document.getElementById('weapon1');
         const weapon2Btn = document.getElementById('weapon2');
         const weapon3Btn = document.getElementById('weapon3');
+        const weapon4Btn = document.getElementById('weapon4')
         const dummy = document.getElementById('dummy');
-
-        weapon1Btn.disabled = false;  // Unlock first weapon at the start
 
         // Update points display
         function updatePoints() {
@@ -80,8 +80,11 @@
                 weapon3Btn.disabled = false;
             }
         }
-
-        // Weapon 1 (Stick)
+            if (points >= 500) {
+                weapon4Btn.disabled = false;
+            }
+        }
+        // Weapon 1 (Bat)
         weapon1Btn.addEventListener('click', function() {
             points += 1;
             dummy.style.backgroundColor = '#ff9999';  // Change dummy color
@@ -103,11 +106,21 @@
             }
         });
 
-        // Weapon 3 (Gun)
+        // Weapon 3 (Sword)
         weapon3Btn.addEventListener('click', function() {
             if (points >= 150) {
                 points += 10;
                 dummy.style.backgroundColor = '#ff3333';
+                setTimeout(() => {
+                    dummy.style.backgroundColor = '#ccc';
+                }, 200);
+                updatePoints();
+            }
+        });
+        weapon4Btn.addEventListener('click', function() {
+            if (points >= 500) {
+                points += 15;
+                dummy.style.backgroundColor = '#ff1111';
                 setTimeout(() => {
                     dummy.style.backgroundColor = '#ccc';
                 }, 200);
