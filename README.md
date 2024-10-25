@@ -128,7 +128,7 @@ A challenge that we faced as a team was figuring out whether we should have a wi
 What challenges as a team did you face that are code related? Were you able to overcome those challenges? Do we need to make any modifications to our sprint backlog (add more tasks, put back tasks we did not finish, edit original tasks based on feedback, etc.)? 
 Our biggest challenge that was code related was coding in the sprite for the enemy that we created. We overcame this challenege by looking into the CSS and asking Chat GPT on how to theoretically do it and we eneded up implementing it. I think our sprint is good for now and we are on good pace to finish everything.
 #### Code File Links {#code-file-links}
-
+Added to repository. Sprint 1 is currently in the CSE_116 folder, but will soon be renamed and moved into old_versions after sprint 2 is started.
 Move onto the next sprint and repeat the previous steps to develop and test each feature until you have completed your project.
 
 ## Sprint 2 {#sprint-2}
