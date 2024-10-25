@@ -104,8 +104,9 @@ Note: This will include the task you plan to complete in the first week from the
 Insert rows as needed in the table below.
 
 | Tasks | Estimated Time | \+/- Time | Completed By |
+
 | Create basics of app and code in the weapons and point calues | 3 days | 3 and a half days | Krishna and Jugaad | 1 |
-|  |  |  |  |
+
 
 #### Sprint Retrospective (Individual): Student1 {#sprint-retrospective-(individual):-student1}
 
