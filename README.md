@@ -88,10 +88,10 @@ Insert rows as needed in the table below.
 Table 1: Main Table: Contain all the tasks
 
 | Tasks | Estimated Time | \+/- Time | Completed By Date and Person name | Sprint \# |
-| ----- | ----- | ----- | ----- | ----- |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| Create basics of app and code in the weapons and point calues | 3 days | 3 and a half days | Krishna and Jugaad | 1 |
+| Creating sprites for weapons and dummy | 1/2 day  |  |  |  |
+| Creating animations for app | 1 1/2 days |  |  |  |
+| Final touches and additional add-ons | 2 days |  |  |  |
 
 ## 
 
@@ -104,16 +104,19 @@ Note: This will include the task you plan to complete in the first week from the
 Insert rows as needed in the table below.
 
 | Tasks | Estimated Time | \+/- Time | Completed By |
-| ----- | ----- | ----- | ----- |
+| Create basics of app and code in the weapons and point calues | 3 days | 3 and a half days | Krishna and Jugaad | 1 |
 |  |  |  |  |
 
 #### Sprint Retrospective (Individual): Student1 {#sprint-retrospective-(individual):-student1}
 
 What challenges as a team did you face that are NOT code related? Were you able to overcome those challenges? What is one goal you have to work better as a team (that is not code related)? 
+A challenge that is not code related was communicating with each other. We didn't plan to call or work on our project outside of school time. We quickly realized that the project required more time than just school time. We overcame this challenge by texting and emailing each other and setting up times to work on the project. Our goal is to keep setting up times to work on our project outside of school. 
 
 #### Sprint Review (Individual):Student 1 {#sprint-review-(individual):student-1}
 
 What challenges as a team did you face that are code related? Were you able to overcome those challenges? Do we need to make any modifications to our sprint backlog (add more tasks, put back tasks we did not finish, edit original tasks based on feedback, etc.)? 
+Our biggest challenge that we faced that was code related was incorporating Java Script into our code and how to make it work. We overcame this challenge by learning a little bit more about Java Script and we incorporated it by helping us make the weapons, the amoung of damage they do, and the shade of red for each weapon. I think that our sprint backlog is all good for now and we don't need to make any changes yet.
+
 
 #### Sprint Retrospective (Individual): Student 2
 
