@@ -88,8 +88,8 @@ Insert rows as needed in the table below.
 Table 1: Main Table: Contain all the tasks
 
 | Tasks | Estimated Time | \+/- Time | Completed By Date and Person name | Sprint \# |
-| Create basics of app and code in the weapons and point calues | 3 days | 3 and a half days | Krishna and Jugaad | 1 |
-| Creating sprites for weapons and dummy | 1/2 day  |  |  |  |
+| Create basics of app and code in the weapons and point values and code in enemy sprite | 3 days | 3 and a half days | Krishna and Jugaad | 1 |
+| Creating sprites for weapons and code it in and make the app look better | 1/2 day  |  |  |  |
 | Creating animations for app | 1 1/2 days |  |  |  |
 | Final touches and additional add-ons | 2 days |  |  |  |
 
@@ -105,7 +105,7 @@ Insert rows as needed in the table below.
 
 | Tasks | Estimated Time | \+/- Time | Completed By |
 
-| Create basics of app and code in the weapons and point calues | 3 days | 3 and a half days | Krishna and Jugaad | 1 |
+| Create basics of app and code in the weapons and point values and code in enemy sprite | 3 days | 3 and a half days | Krishna and Jugaad | 1 |
 
 
 #### Sprint Retrospective (Individual): Student1 {#sprint-retrospective-(individual):-student1}
@@ -122,11 +122,11 @@ Our biggest challenge that we faced that was code related was incorporating Java
 #### Sprint Retrospective (Individual): Student 2
 
 What challenges as a team did you face that are NOT code related? Were you able to overcome those challenges? What is one goal you have to work better as a team (that is not code related)? 
-
+A challenge that we faced as a team was figuring out whether we should have a win condition or the game should be endless. We overcame this challenge by thinking about what our app what best need. We ended up choosing for a endless game. One goal that we have to work on is communicating better outside of school. 
 #### Sprint Review (Individual): Student 2
 
 What challenges as a team did you face that are code related? Were you able to overcome those challenges? Do we need to make any modifications to our sprint backlog (add more tasks, put back tasks we did not finish, edit original tasks based on feedback, etc.)? 
-
+Our biggest challenge that was code related was coding in the sprite for the enemy that we created. We overcame this challenege by looking into the CSS and asking Chat GPT on how to theoretically do it and we eneded up implementing it. I think our sprint is good for now and we are on good pace to finish everything.
 #### Code File Links {#code-file-links}
 
 Move onto the next sprint and repeat the previous steps to develop and test each feature until you have completed your project.
