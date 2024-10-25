@@ -91,7 +91,7 @@ Table 1: Main Table: Contain all the tasks
 | Create basics of app and code in the weapons and point values and code in enemy sprite | 3 days | 3 and a half days | Krishna and Jugaad | 1 |
 | Creating sprites for weapons and code it in and make the app look better | 1/2 day  |  |  |  |
 | Creating animations for app | 1 1/2 days |  |  |  |
-| Final touches and additional add-ons | 2 days |  |  |  |
+| Extra features like maybe a store or add-ons to weapons| 2 days |  |  |  |
 
 ## 
 
