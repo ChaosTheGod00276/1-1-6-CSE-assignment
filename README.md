@@ -89,7 +89,7 @@ Table 1: Main Table: Contain all the tasks
 
 | Tasks | Estimated Time | \+/- Time | Completed By Date and Person name | Sprint \# |
 | Create basics of app and code in the weapons and point values and code in enemy sprite | 3 days | 3 and a half days | Krishna and Jugaad | 1 |
-| Creating sprites for weapons and code it in and make the app look better | 1/2 day  |  |  |  |
+| Creating sprites for weapons and code it in and make the app look better | 1/2 day  | 1 day |10-29-24 by Krishna and Jugaad  | 2 |
 | Creating animations for app | 1 1/2 days |  |  |  |
 | Extra features like maybe a store or add-ons to weapons| 2 days |  |  |  |
 
@@ -140,25 +140,27 @@ Note: This will include the task you plan to complete in the first week from the
 Insert rows as needed in the table below
 
 | Tasks | Estimated Time | \+/- Time | Completed By |
-| ----- | ----- | ----- | ----- |
+| Creating sprites for weapons and code it in and make the app look better | 1/2 day  | 1 day |10-29-24 by Krishna and Jugaad  | 2 |
 |  |  |  |  |
 
 #### Sprint Retrospective (Individual): Student1
 
 What challenges as a team did you face that are NOT code related? Were you able to overcome those challenges? What is one goal you have to work better as a team (that is not code related)? 
+A challenge we faced as a team was making the sprites. I was in charge of making the art for the sprites. I was trying to think of a way to mkae the art look better. My partner helped me with the idea of putting a blue aura around some of the weapons. Being more productive with the time together.
 
 #### Sprint Review (Individual):Student 1
 
 What challenges as a team did you face that are code related? Were you able to overcome those challenges? Do we need to make any modifications to our sprint backlog (add more tasks, put back tasks we did not finish, edit original tasks based on feedback, etc.)? 
+a challenege we faced as a team that was code related was coding in the sprites to the app. We overcame this challenege by asking ChatGPT on how to do this task. CHatGPT helped us and we used what we learned from ChatGPT to incorporate in in our app. We might need to change our last print as we might not have a=enough time to finish it.
 
 #### Sprint Retrospective (Individual): Student 2
 
 What challenges as a team did you face that are NOT code related? Were you able to overcome those challenges? What is one goal you have to work better as a team (that is not code related)? 
-
+Our biggest callenge was creating good looking sprites for our weapons. We overcame this challenge by working together to find out a good way to create a aura around some of our weapons. We need to be more productive in our time together.
 #### Sprint Review (Individual): Student 2
 
 What challenges as a team did you face that are code related? Were you able to overcome those challenges? Do we need to make any modifications to our sprint backlog (add more tasks, put back tasks we did not finish, edit original tasks based on feedback, etc.)? 
-
+A challenge we faced as a team about the code was coding the weapon sprites into our app. We asked ChatGPT for helped and used what ChatGPT taught us to help use it in our app. We might need to remove the last sprint but we don't know yet.
 #### Code File Links
 
 Move onto the next sprint and repeat the previous steps to develop and test each feature until you have completed your project.
