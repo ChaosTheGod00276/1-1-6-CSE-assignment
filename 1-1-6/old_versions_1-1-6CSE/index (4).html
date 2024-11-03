@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummy Fight</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #535050;
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        #dummy {
+            width: 300px;
+            height: 300px;
+            background-image: url('New Piskel (5) (1).png'); /* Dummy image */
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+
+        #points {
+            font-size: 24px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        #bloodIcon {
+            width: 60px; /* Adjust this size as needed */
+            height: 60px;
+            background-image: url('New Piskel (15) (1).png'); /* Demon Blood image */
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: inline-block;
+        }
+
+        #weapons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .weapon {
+            width: 100px;
+            height: 100px;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .weapon:disabled {
+            cursor: not-allowed;
+        }
+
+        #weapon1 {
+            background-image: url('New Piskel (9).png'); /* Bat image */
+        }
+
+        /* Locked and Unlocked Knife Images */
+        #weapon2.locked {
+            background-image: url('New Piskel (12).png'); /* Locked knife image */
+        }
+        #weapon2.unlocked {
+            background-image: url('New Piskel (11).png'); /* Unlocked knife image */
+        }
+
+        /* Sword - Always visible and greyed out when disabled */
+        #weapon3 {
+            background-image: url('New Piskel (13).png'); /* Sword image */
+        }
+        #weapon3.locked {
+            filter: grayscale(100%);
+            opacity: 0.5;
+        }
+        #weapon3.unlocked {
+            filter: none;
+            opacity: 1;
+        }
+
+        /* Axe - Same logic as the sword */
+        #weapon4 {
+            background-image: url('New Piskel (20) (1).png'); /* Axe image */
+        }
+        #weapon4.locked {
+            filter: grayscale(100%);
+            opacity: 0.5;
+        }
+        #weapon4.unlocked {
+            filter: none;
+            opacity: 1;
+        }
+
+        /* Phantom Axe Dropdown */
+        #phantomDropdown {
+            position: relative;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        #phantomDropdownContent {
+            display: none;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 10px;
+            color: #fff;
+            border-radius: 5px;
+            width: 200px;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            z-index: 1;
+            font-size: 14px;
+            pointer-events: none;
+        }
+
+        #phantomImage {
+            width: 100px;
+            height: 100px;
+            background-image: url('New Piskel (21).png'); /* Phantom axe image */
+            background-size: contain;
+            background-repeat: no-repeat;
+            filter: grayscale(100%);
+            opacity: 0.5;
+        }
+
+        /* Show tooltip on hover */
+        #phantomImage:hover + #phantomDropdownContent {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Demon Fight</h1>
+        <div id="dummy"></div>
+        <div id="points">
+            <span id="bloodIcon"></span> <!-- Demon Blood icon -->
+            <span id="pointsText">: 0</span>
+        </div>
+        <div id="weapons">
+            <button id="weapon1" class="weapon"></button>
+            <button id="weapon2" class="weapon locked" disabled></button>
+            <button id="weapon3" class="weapon locked" disabled></button>
+            <button id="weapon4" class="weapon locked" disabled></button> <!-- Axe with greyed-out effect -->
+        </div>
+        
+        <!-- Phantom Axe Dropdown Section -->
+        <div id="phantomDropdown">
+            <div id="phantomImage"></div>
+            <div id="phantomDropdownContent">
+                This is the phantom axe. It is a very powerful tool made by the gods, and gives you one Demon Blood every second after hitting for five seconds. When you have 10,000 points, reset them to unlock this. You will be able to keep your weapons.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let points = 0;
+        const pointsDisplay = document.getElementById('pointsText');
+        const weapon1Btn = document.getElementById('weapon1');
+        const weapon2Btn = document.getElementById('weapon2');
+        const weapon3Btn = document.getElementById('weapon3');
+        const weapon4Btn = document.getElementById('weapon4');
+        const phantomImage = document.getElementById('phantomImage');
+        const dummy = document.getElementById('dummy');
+        let phantomUnlocked = false;
+        
+        // Update points display and weapon availability
+        function updatePoints() {
+            pointsDisplay.textContent = `: ${points}`;
+            
+            // Unlock the knife at 50 points
+            if (points >= 50) {
+                weapon2Btn.disabled = false;
+                weapon2Btn.classList.remove('locked');
+                weapon2Btn.classList.add('unlocked');
+            }
+
+            // Unlock the sword at 150 points
+            if (points >= 150) {
+                weapon3Btn.disabled = false;
+                weapon3Btn.classList.remove('locked');
+                weapon3Btn.classList.add('unlocked');
+            }
+
+            // Unlock the axe at 500 points
+            if (points >= 500) {
+                weapon4Btn.disabled = false;
+                weapon4Btn.classList.remove('locked');
+                weapon4Btn.classList.add('unlocked');
+            }
+
+            // Unlock the phantom axe at 10,000 points by resetting points
+            if (points >= 10000 && !phantomUnlocked) {
+                points = 0;
+                phantomUnlocked = true;
+                phantomImage.style.filter = "none";
+                phantomImage.style.opacity = "1";
+                alert("The Phantom Axe has been unlocked! Your points have been reset, but you keep your weapons.");
+                updatePoints();
+            }
+        }
+
+        // Weapon 1 (Bat)
+        weapon1Btn.addEventListener('click', function() {
+            points += 1;
+            dummy.style.backgroundColor = '#99ccff';  // Light blue color
+            setTimeout(() => {
+                dummy.style.backgroundColor = '#ccc';  // Reset dummy color
+            }, 200);
+            updatePoints();
+        });
+
+        // Weapon 2 (Knife)
+        weapon2Btn.addEventListener('click', function() {
+            if (points >= 50) {
+                points += 5;
+                dummy.style.backgroundColor = '#66b2ff';  // Slightly darker blue
+                setTimeout(() => {
+                    dummy.style.backgroundColor = '#ccc';
+                }, 200);
+                updatePoints();
+            }
+        });
+
+        // Weapon 3 (Sword)
+        weapon3Btn.addEventListener('click', function() {
+            if (points >= 150) {
+                points += 10;
+                dummy.style.backgroundColor = '#3399ff';  // Medium blue
+                setTimeout(() => {
+                    dummy.style.backgroundColor = '#ccc';
+                }, 200);
+                updatePoints();
+            }
+        });
+
+        // Weapon 4 (Axe)
+        weapon4Btn.addEventListener('click', function() {
+            if (points >= 500) {
+                points += 15;
+                dummy.style.backgroundColor = '#0066cc';  // Dark blue
+                setTimeout(() => {
+                    dummy.style.backgroundColor = '#ccc';
+                }, 200);
+                updatePoints();
+            }
+        });
+
+        // Phantom Axe - gives 15 points on hit and 1 point per second for 5 seconds
+        phantomImage.addEventListener('click', function() {
+            if (phantomUnlocked) {
+                points += 15;
+                dummy.style.backgroundColor = '#004080';  // Darker blue for phantom hit
+                setTimeout(() => {
+                    dummy.style.backgroundColor = '#ccc';
+                }, 200);
+                updatePoints();
+
+                // 1 point per second for 5 seconds
+                let additionalPoints = 0;
+                const interval = setInterval(() => {
+                    if (additionalPoints < 5) {
+                        points += 1;
+                        additionalPoints += 1;
+                        updatePoints();
+                    } else {
+                        clearInterval(interval);
+                    }
+                }, 1000);
+            }
+        });
+    </script>
+</body>
+</html>
