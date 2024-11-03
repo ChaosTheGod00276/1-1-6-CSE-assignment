@@ -90,7 +90,7 @@ Table 1: Main Table: Contain all the tasks
 | Tasks | Estimated Time | \+/- Time | Completed By Date and Person name | Sprint \# |
 | Create basics of app and code in the weapons and point values and code in enemy sprite | 3 days | 3 and a half days | Krishna and Jugaad | 1 |
 | Creating sprites for weapons and code it in and make the app look better | 1/2 day  | 1 day |10-29-24 by Krishna and Jugaad  | 2 |
-| Creating animations for app | 1 1/2 days |  |  |  |
+| Creating animations for app | 1 1/2 days | 1 day | Krishna and Jugaad | 3 |
 | Extra features like maybe a store or add-ons to weapons| 2 days |  |  |  |
 
 ## 
@@ -176,25 +176,27 @@ Note: This will include the task you plan to complete in the first week from the
 Insert rows as needed in the table below
 
 | Tasks | Estimated Time | \+/- Time | Completed By |
-| ----- | ----- | ----- | ----- |
-|  |  |  |  |
+| Creating animations for app | 1 1/2 days | 1 day | Krishna and Jugaad | 3 |
+
 
 #### Sprint Retrospective (Individual): Student1
 
 What challenges as a team did you face that are NOT code related? Were you able to overcome those challenges? What is one goal you have to work better as a team (that is not code related)? 
+A challenge that we faced as a team that was not code related was finding out how we wanted to animate our app. We overcame this challenge by decidng to do a simple animation that whenever we use a weapon that the screen flashes with a shade of clue, the darker the shade, the more powerful the weapon. We think that communication is key for us to work on.
 
 #### Sprint Review (Individual):Student 1
 
 What challenges as a team did you face that are code related? Were you able to overcome those challenges? Do we need to make any modifications to our sprint backlog (add more tasks, put back tasks we did not finish, edit original tasks based on feedback, etc.)? 
-
+We faced a challenge of how to code our animation into the app by not knowing which language to code it in. We eneded up figuring out that Java Script was the easiest language for our animations. Our sprint backlog is okay for now.
 #### Sprint Retrospective (Individual): Student 2
 
 What challenges as a team did you face that are NOT code related? Were you able to overcome those challenges? What is one goal you have to work better as a team (that is not code related)? 
+A challenge that we faced as a team that was not code related was trying to figure out how to use animations in our app. We overcame this challenge by adding a very simple animation which is when each weapon is used, the screen flashes a darker color of blue based on how strong th weapon is. We agree that communication is the most important skill to work on.
 
 #### Sprint Review (Individual): Student 2
 
 What challenges as a team did you face that are code related? Were you able to overcome those challenges? Do we need to make any modifications to our sprint backlog (add more tasks, put back tasks we did not finish, edit original tasks based on feedback, etc.)? 
-
+The biggest challenge that we faced that was code related was what language to use. We researched and found out for our backround color animation that Java Script was the best language to use. Our sprint backlog is fine for now.
 #### Code File Links
 
 Note: Add more sprints if needed until you complete the project, or the project is due\!
