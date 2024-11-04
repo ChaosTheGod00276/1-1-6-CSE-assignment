@@ -88,10 +88,10 @@ Insert rows as needed in the table below.
 Table 1: Main Table: Contain all the tasks
 
 | Tasks | Estimated Time | \+/- Time | Completed By Date and Person name | Sprint \# |
-| Create basics of app and code in the weapons and point values and code in enemy sprite | 3 days | 3 and a half days | Krishna and Jugaad | 1 |
-| Creating sprites for weapons and code it in and make the app look better | 1/2 day  | 1 day |10-29-24 by Krishna and Jugaad  | 2 |
-| Creating animations for app | 1 1/2 days | 1 day | Krishna and Jugaad | 3 |
-| Extra features like maybe a store or add-ons to weapons| 2 days |  |  |  |
+| Create basics of app and code in the weapons and point values and code in enemy sprite | 3 days | 3 and a half days | 10-24-24 by Krishna and Jugaad | 1 |
+| Creating sprites for weapons and code it in and make the app look better | 1/2 day  | 1 day |10-28-24 by Krishna and Jugaad  | 2 |
+| Creating animations for app | 1 1/2 days | 1 day | 10-29-24 by Krishna and Jugaad | 3 |
+| Extra features like maybe a store or add-ons to weapons| 2 days | 2 days | 11-1-24 by Krishna and Jugaad | 4 |
 
 ## 
 
@@ -105,7 +105,7 @@ Insert rows as needed in the table below.
 
 | Tasks | Estimated Time | \+/- Time | Completed By |
 
-| Create basics of app and code in the weapons and point values and code in enemy sprite | 3 days | 3 and a half days | Krishna and Jugaad | 1 |
+| Create basics of app and code in the weapons and point values and code in enemy sprite | 3 days | 3 and a half days | 10-24-24 by Krishna and Jugaad | 1 |
 
 
 #### Sprint Retrospective (Individual): Student1 {#sprint-retrospective-(individual):-student1}
@@ -141,7 +141,7 @@ Insert rows as needed in the table below
 
 | Tasks | Estimated Time | \+/- Time | Completed By |
 | Creating sprites for weapons and code it in and make the app look better | 1/2 day  | 1 day |10-29-24 by Krishna and Jugaad  | 2 |
-|  |  |  |  |
+
 
 #### Sprint Retrospective (Individual): Student1
 
@@ -176,7 +176,7 @@ Note: This will include the task you plan to complete in the first week from the
 Insert rows as needed in the table below
 
 | Tasks | Estimated Time | \+/- Time | Completed By |
-| Creating animations for app | 1 1/2 days | 1 day | Krishna and Jugaad | 3 |
+| Creating animations for app | 1 1/2 days | 1 day | 10-29-24 by Krishna and Jugaad | 3 |
 
 
 #### Sprint Retrospective (Individual): Student1
@@ -205,22 +205,22 @@ Note: Add more sprints if needed until you complete the project, or the project 
 
 ## Final Sprint Review & Retrospective (Individual): Student 1 {#final-sprint-review-&-retrospective-(individual):-student-1}
 
-Type Here...***Organize and Format Nicely\!\!\!*** 
+| Extra features like maybe a store or add-ons to weapons| 2 days | 2 days | 11-1-24 by Krishna and Jugaad | 4 | 
 
 What went well through this process, what did not go well. Make note of any features you did not have time to develop and any milestones you did not reach. Also reflect on what you would have done differently if you got to repeat this entire project/process all over again
-
+I think that something that went well throughout this process was our teamwork. We were very much in sync and our communication got a lot better throughout the project. We got most of our features done but would have loved to add a little bit more to our app. If I would have done this process over again I would have been more productive in class and we had to finish our final feature after class.
 ## Final Sprint Review & Retrospective (Individual): Student 2
 
-Type Here...***Organize and Format Nicely\!\!\!*** 
+| Extra features like maybe a store or add-ons to weapons| 2 days | 2 days | 11-1-24 by Krishna and Jugaad | 4 |
 
 What went well through this process, what did not go well. Make note of any features you did not have time to develop and any milestones you did not reach. Also reflect on what you would have done differently if you got to repeat this entire project/process all over again
-
+I think we worked well as a tema and we got good and pair programming. We ended up finsihing all of our sprints, but would'ce loved a little bit of extra time to add 1 more feature to our game. I would have been a little bit more productive in class, and planned out our time better than just going by the flow.
 # 
 
 # **Final Product & Justifications** {#final-product-&-justifications}
 
 Insert a Video of your final app in action here
-
+https://drive.google.com/file/d/1XkBkZZ3V4tjy_M5RmAVffksm2z4pbNPv/view
 Final .aia file link:  
 Final .apk file link:
 
@@ -237,6 +237,8 @@ Justification for that score, go into detail on what rows you think you would ge
 ## Program Code {#program-code}
 
 Insert as many screen captures as needed of your program code with readable comments for the major features and functional aspects of your App (Note: I suggest you use a table to help organize your images and comments (comments can use app inventor comments or text in this document)): 
+![image (1)](https://github.com/user-attachments/assets/68c697ce-dc7c-42f4-bddc-82e2e978c3f9)
+![image](https://github.com/user-attachments/assets/d1ba72d8-b692-45ff-a931-66ef60297a79)
 
 # **Conclusion** {#conclusion}
 
