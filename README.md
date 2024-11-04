@@ -74,7 +74,7 @@ GIF of your App in Action
 ## Product Backlog / User Story {#product-backlog-/-user-story}
 
 What big picture product features need to be completed in order to have a successful product. Note, in this section you might need to include sketches to better aid in a strangers understanding of the goal of this product.
-
+To create a succesful product we need to make an app that has a very appealing user story and nice user interface. We also need to add at least 4 weapons to our app as well as maybe a last secret weapon with a unique damage output. Finally we also need animations that work very well with our app.
 ## 
 
 ## 
