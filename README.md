@@ -242,15 +242,15 @@ Insert as many screen captures as needed of your program code with readable comm
 
 # **Conclusion** {#conclusion}
 
-### \_\_\_\_\_\_’s Reflection: {#______’s-reflection:}
+### Krishna’s Reflection: {#1’s-reflection:}
 
 Answer the 1.1.6 conclusion question here...be DETAILED\!  
 Blas this is my great example of collaboration
-
-### \_\_\_\_\_\_’s Reflection: {#______’s-reflection:-1}
+My contribution to the collaboration was writing around 3/5 of the code and testing it. I wrote a little bit more code than Jugaad and tested it more. I also worked on the readme and helped do some of the assignments on that. I think that we worked on this project great together
+### Jugaad’s Reflection: {#2’s-reflection:-1}
 
 Answer the 1.1.6 conclusion question here...be DETAILED\!
-
+My contribution was more so giving ideas and being more of a helper when coding. I coded about 2/5 of the app but I also made most of the sprites for the weapons and demon aswell as doing some of the readme. Overall, I think we used really good collaboration on this project.
 ### 
 
 # **Project Log & Brainstorming** {#project-log-&-brainstorming}
