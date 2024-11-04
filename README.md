@@ -230,10 +230,10 @@ Final .apk file link:
 
 To help prepare you for the next Computer Science Course (AP CSP) I want you to look at and evaluate what score you would get based on the following [Interpretive Performance Guide (Click Here)](https://drive.google.com/file/d/1b8uUpoppf6hdcfgt9oiIow0GlkqHTi6R/view?usp=sharing). Note: if you do not satisfy and show proof in this documentation of all items in the Low category give yourself a “0” for that row.
 
-	Based on the Guide My partner and I would get: **\_\_\_\_\_**
+	Based on the Guide My partner and I would get: **16**
 
 Justification for that score, go into detail on what rows you think you would get and why\!
-
+I think that my partner and I would get a 16 because we did almost everything good on there but I think we might get a 2 on Applying Algorithms and Applying Abstraction.
 ## Program Code {#program-code}
 
 Insert as many screen captures as needed of your program code with readable comments for the major features and functional aspects of your App (Note: I suggest you use a table to help organize your images and comments (comments can use app inventor comments or text in this document)): 
