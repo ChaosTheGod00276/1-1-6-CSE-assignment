@@ -244,8 +244,7 @@ Insert as many screen captures as needed of your program code with readable comm
 
 ### Krishna’s Reflection: {#1’s-reflection:}
 
-Answer the 1.1.6 conclusion question here...be DETAILED\!  
-Blas this is my great example of collaboration
+Answer the 1.1.6 conclusion question here...be DETAILED\!
 My contribution to the collaboration was writing around 3/5 of the code and testing it. I wrote a little bit more code than Jugaad and tested it more. I also worked on the readme and helped do some of the assignments on that. I think that we worked on this project great together. Sometimes I made simple errors in my code that I couldn't figure out and Jugaad pointed them out and helped me solve them.
 ### Jugaad’s Reflection: {#2’s-reflection:-1}
 
@@ -256,8 +255,8 @@ My contribution was more so giving ideas and being more of a helper when coding.
 # **Project Log & Brainstorming** {#project-log-&-brainstorming}
 
 This table MUST be detailed\! It will be how I grade a minimum of 10% of your score for this project. You must record an entry for every day of this project, even if we do not meet for class.
-
-| Brainstorming: Steps 1 through 7: Type Here...*Organize and Format Nicely\!\!\!* You should also include brainstorming & developmental sketches here. They can be google drawings, photos of your hand sketches, etc. *No matter what though, Organize and Format Nicely\!\!\!*   Reminder, your App must meet ALL requirements given in 1.1.6 PLTW instructions   |  |
+Brainstorming: Steps 1 through 7: Type Here...*Organize and Format Nicely\!\!\!* You should also include brainstorming & developmental sketches here. They can be google drawings, photos of your hand sketches, etc. *No matter what though, Organize and Format Nicely\!\!\!*   Reminder, your App must meet ALL requirements given in 1.1.6 PLTW instructions
+|||
 | ----- | :---- |
 | Krishna | Jugaad |
 |Day 1: We worked together to learn the boundaries of this project. At home, we called and I worked on basic HTML code while Jugaad worked on basic CSS code, and we coordinated the HTML and CSS really well.| At school I read the requirements and helped Krishna understand them. Once I was home, Krishna and I called and we worked together to set up basic looks for the app.
